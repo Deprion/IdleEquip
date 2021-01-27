@@ -66,15 +66,23 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CellItem.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\ItemHolder.cs" />
     <Compile Include="Assets\Scripts\Items\Circle.cs" />
     <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Items\Polygon.cs" />
     <Compile Include="Assets\Scripts\Items\Spiral.cs" />
     <Compile Include="Assets\Scripts\Items\Square.cs" />
     <Compile Include="Assets\Scripts\Items\Star.cs" />
+    <Compile Include="Assets\Scripts\ItemsSO\CircleSO.cs" />
+    <Compile Include="Assets\Scripts\ItemsSO\ItemSO.cs" />
+    <Compile Include="Assets\Scripts\ItemsSO\PolygonSO.cs" />
+    <Compile Include="Assets\Scripts\ItemsSO\SpiralSO.cs" />
+    <Compile Include="Assets\Scripts\ItemsSO\SquareSO.cs" />
+    <Compile Include="Assets\Scripts\ItemsSO\StarSO.cs" />
     <Compile Include="Assets\Scripts\Managers\ClickManager.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ItemGeneratorManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\StaticManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
