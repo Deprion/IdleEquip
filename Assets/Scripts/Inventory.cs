@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static Inventory Instance;
+    public CellItem[] EquipedItem = new CellItem[5];
+    public Item[] InventoryItem = new Item[100];
+    private void Start()
     {
+        Instance = this;
+    }
+    public void DeleteItem(Item item)
+    { 
         
     }
-
-    // Update is called once per frame
-    void Update()
+    public void DeleteItem(Item[] itemArray)
     {
-        
+        foreach (Item item in itemArray)
+        {
+            DeleteItem(item);
+        }
     }
 }
